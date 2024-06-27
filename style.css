@@ -43,7 +43,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(NewbgRecovered2.png) no-repeat;
+    background: url(/Home%2520page/NewbgRecovered2.png) no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
