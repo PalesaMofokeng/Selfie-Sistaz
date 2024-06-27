@@ -43,7 +43,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(/Home%2520page/NewbgRecovered2.png) no-repeat;
+    background: url(./Home-page/NewbgRecovered2.png) no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
@@ -145,14 +145,14 @@ header .navigation a:hover{
 
 .media-icons a{
     position: relative;
-    color: #FF69B4;
+    color: white;
     font-size: 30px;
     transition: 0.3s;
     transition-property: transform;
 }
 
 .media-icons a:not(:last-child){
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .media-icons a:hover{
