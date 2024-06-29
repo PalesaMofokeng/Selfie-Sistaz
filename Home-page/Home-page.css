@@ -131,3 +131,35 @@ header .navigation a:hover{
 .content .info-btn:hover{
     background: white;
 }
+
+.media-icons{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 30px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.5);
+}
+
+label{
+    display: none;
+}
+
+#check{
+    z-index: 3;
+    display: none;
+}
