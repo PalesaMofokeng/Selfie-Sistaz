@@ -86,11 +86,10 @@ header .navigation a:not(:last-child){
 header .navigation a:hover{
     background: white;  
 }
-
-header .navigation a:active{
-    background: white;
-    color: yellow;
-}
+/*
+header .navigation:active{
+    background: pink;
+}*/
 
 .content{
     max-width: 650px;
