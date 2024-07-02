@@ -9,7 +9,7 @@
 
 nav{
     background: #FF69B4;
-    height: 80px;
+    height: 60px;
     width: 100%;
 } 
 
@@ -20,7 +20,7 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    line-height: 80px;
+    line-height: 60px;
     margin: 0 5px;
 }
 
@@ -38,3 +38,19 @@ a.active,a:hover{
     color: black;
     transition: .5s;
 }
+
+.checkbtn{
+    font-size: 20px;
+    color: white;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 600px)
