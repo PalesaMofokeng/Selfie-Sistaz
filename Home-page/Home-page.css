@@ -59,9 +59,9 @@ a.active,a:hover{
     display: none;
 }
 
-img{
+.nav .img{
     height: 60px;
-    padding: 0 10px;
+    padding-left: 100px;
     margin: 0;
     padding: 10;
 }
@@ -97,16 +97,82 @@ img{
         left: 0;
     }
 }
-/*
-body{
-    background: #ffc0cb;
-}
-*/
 
-/*body{
-    background-image: url(./Background.png);
+body{
     background-color: #ffc0cb;
     background-position: left;
-    width: 100%;
 }
-*/
+
+.section{
+    float: right;
+    width: 5000px;
+    height: 3600px;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.content .info h2{
+    color: #FF69B4;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.content .info h2 span{
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.content .info p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.content .info-btn{
+    color: black;
+    background: #FF69B4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.content .info-btn:hover{
+    background: white;
+}
+
+.media-icons{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 30px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.5);
+}
