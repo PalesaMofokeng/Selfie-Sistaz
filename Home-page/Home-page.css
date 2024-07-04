@@ -6,7 +6,7 @@
     list-style: none;
     font-family: "Playfair", helvetica, sans-serif;
 }
-
+/*
 nav{
     background: #FF69B4;
     height: 60px;
@@ -97,18 +97,6 @@ a.active,a:hover{
         left: 0;
     }
 }
-
-body{
-    background-color: #ffc0cb;
-    background-position: left;
-}
-
-section{
-    float: right;
-    width: 5000px;
-    height: 3600px;
-}
-
 .content{
     max-width: 650px;
     margin: 60px 10px;
@@ -175,4 +163,16 @@ section{
 
 .media-icons a:hover{
     transform: scale(1.5);
+}
+*/
+body{
+    background-color: #ffc0cb;
+    background-position: left;
+}
+
+.carousel{
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
