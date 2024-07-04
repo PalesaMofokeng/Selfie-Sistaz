@@ -6,7 +6,7 @@
     list-style: none;
     font-family: "Playfair", helvetica, sans-serif;
 }
-/*
+
 nav{
     background: #FF69B4;
     height: 60px;
@@ -59,7 +59,7 @@ a.active,a:hover{
     display: none;
 }
 
-.img{
+nav img{
     line-height: 40px;
     padding-left: 100px;
     margin: 0;
@@ -145,7 +145,7 @@ a.active,a:hover{
 .media-icons{
     display: flex;
     justify-content:flex-start;
-    align-items: center;
+    align-items: bottom;
     margin: auto;
 }
 
@@ -164,13 +164,13 @@ a.active,a:hover{
 .media-icons a:hover{
     transform: scale(1.5);
 }
-*/
+
 body{
     background-color: #ffc0cb;
     background-position: left;
 }
 
-.carousel{
+.carousel img{
     float: right;
     position: absolute;
     bottom: 0;
