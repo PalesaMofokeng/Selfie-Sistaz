@@ -64,6 +64,7 @@ img{
     margin-left: 20px;
     width: 135px;
     height: 53px;
+    margin-top: 0.5%;
 }
 
 @media (max-width: 550px){
@@ -117,7 +118,7 @@ img{
     letter-spacing: 2px;
     line-height: 80px;
     margin-bottom: 10px;
-    -webkit-text-stroke: #FF69B4;
+    -webkit-text-stroke: #fd0983;
     -webkit-text-stroke-width: 3px;
 }
 
@@ -130,7 +131,7 @@ img{
 }
 
 .content .info p{
-    color: #833F3F;
+    color: #fd0983;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 40px;
@@ -157,12 +158,12 @@ img{
     display: flex;
     justify-content:flex-start;
     align-items: bottom;
-    margin: auto;
+    margin-left: 20px;
 }
 
 .media-icons a{
     position: relative;
-    color: white;
+    color: #fd0983;
     font-size: 30px;
     transition: 0.3s;
     transition-property: transform;
