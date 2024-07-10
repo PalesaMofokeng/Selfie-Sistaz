@@ -6,49 +6,6 @@
     font-family: "Playfair", helvetica, sans-serif;
 }
 
-/*Alert messages*/
-
-.alert-success{
-    z-index: 1;
-    background: white;
-    font-size: 18px;
-    padding: 20px 40px;
-    min-width: 420;
-    position: fixed;
-    right: 0;
-    top: 10px;
-    border-left: 8px solid green;
-    border-radius: 4px;
-    display: none;
-}
-
-.alert-error{
-    z-index: 1;
-    background: white;
-    font-size: 18px;
-    padding: 20px 40px;
-    min-width: 420;
-    position: fixed;
-    right: 0;
-    top: 10px;
-    border-left: 8px solid red;
-    border-radius: 4px;
-    display: none;
-}
-
-section{
-    position: relative;
-    width: 100%;
-    min-height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background: url(./Home-page/NewbgRecovered2.png) no-repeat;
-    background-size:cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
 header{
     position: relative;
     top: 0;
@@ -260,3 +217,11 @@ label{
     .container .heading h3 span{
         font-weight: 100;
     }
+
+    .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
