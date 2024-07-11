@@ -6,7 +6,7 @@
     list-style: none;
     font-family: "Playfair", helvetica, sans-serif;
 }
-
+/*
 nav{
     background: #FF69B4;
     height: 70px;
@@ -95,6 +95,7 @@ nav img{
 .content .info-btn:hover{
     background: white;
 }
+*/
 
 @media (max-width: 800px){
     .checkbtn{
@@ -126,6 +127,7 @@ nav img{
     #check:checked ~ul{
         left: 0;
     }
+    */
     nav img{
     line-height: 70px;
     margin-left: 20px;
@@ -151,6 +153,7 @@ nav img{
      .heading h3 span{
          font-weight: 100;
      }
+
 }
 
 .heading h3{
