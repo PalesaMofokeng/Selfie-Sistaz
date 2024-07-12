@@ -11,32 +11,60 @@
 
     <body>
         <nav>
-               <img src="./icon.svg" alt="Selfie sistaz logo">
-               <link rel="icon" href="./selfie-sistaz.png">
-                <ul class="sidebar">
-                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                    <li><a href="../Home-page/home-page.html">Home</a></li>
-                    <li><a class="active" href="./about-us-page.html">About</a></li>
-                    <li><a href="../services-page/code/services-page.html">Services</a></li>
-                    <li><a href="../Contact-us-page/contact-page.html">Contact</a></li>
-                </ul>
-                <ul>
-                    <li class="hideOnMobile"><a href="../Home-page/">Home</a></li>
-                    <li class="hideOnMobile"><a class="active" href="./about-us-page.html">About</a></li>
-                    <li class="hideOnMobile"><a href="../services-page/code/services-page.html">Services</a></li>
-                    <li class="hideOnMobile"><a href="../Contact-us-page/contact-page.html">Contact</a></li>
-                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-                </ul>
+            <img src="./icon.svg" alt="Selfie sistaz logo">
+            <link rel="icon" href="./selfie-sistaz.png">
+             <ul class="sidebar">
+                 <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                 <li><a href="../Home-page/home-page.html">Home</a></li>
+                 <li><a class="active" href="./about-us-page.html">About</a></li>
+                 <li><a href="../services-page/code/services-page.html">Services</a></li>
+                 <li><a href="../Contact-us-page/contact-page.html">Contact</a></li>
+             </ul>
+             <ul>
+                 <li class="hideOnMobile"><a href="../Home-page/home-page.html">Home</a></li>
+                 <li class="hideOnMobile"><a class="active" href="./about-us-page.html">About</a></li>
+                 <li class="hideOnMobile"><a href="../services-page/code/services-page.html">Services</a></li>
+                 <li class="hideOnMobile"><a href="../Contact-us-page/contact-page.html">Contact</a></li>
+                 <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+             </ul>
         </nav>
 
         <script>
             function showSidebar(){
-                const sidebar = document.querySelector('.sidebar')
-                sidebar.style.display = 'flex'
+             const sidebar = document.querySelector('.sidebar')
+             sidebar.style.display = 'flex'
             }
             function hideSidebar(){
-                const sidebar = document.querySelector('.sidebar')
-                sidebar.style.display = 'none'
+             const sidebar = document.querySelector('.sidebar')
+             sidebar.style.display = 'none'
             }
         </script>
-    </body>    
+
+    <div class="title">
+        <h1>Selfie Sistaz:</h1>
+    </div>
+    <div class="About">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-pencil"></i>
+            </div>
+            <h2>About us:</h2>
+                <p>Our salon is not just a place for pampering; it's a canvas for self-expression. We believe that beauty is not only skin deep but a reflection of individuality and confidence. </p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-book"></i>
+            </div>
+        <h2>Our mission</h2>
+        <p>At Selfie Sistaz, our mission is to empower every individual to embrace their unique beauty and express their personality through our range of salon services and captivating face painting. </p>
+        </div>
+    <div class="card">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <h2>Why us?</h2>
+        <p>Passion for Beauty: We are passionate about making you look and feel your best. Your satisfaction is our ultimate goal, and we take pride in our attention to detail.</p>
+    </div>
+    </div>
+    </body>  
+</html>    
