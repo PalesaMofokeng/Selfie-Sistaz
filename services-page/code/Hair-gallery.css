@@ -90,18 +90,45 @@ nav img{
         display: block;
         margin-top: 10%;
     }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        display: flex;
+    }
+}
+
+.card:hover{
+    background-color: #f5dbe861;
+    transition: 0.4s ease;
 }
 
 @media(max-width: 400px){
     .sidebar{
         width: 100%;
     }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 60%;
+        display: flex;
+    }
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+img{
+    line-height: 70px;
+    margin-left: 20px;
+    width: 135px;
+    height: 53px;
+    margin-top: 0.5%;
 }
+
+body{
+    width: 100%;
+    background-color: #FFC0CB;
+}
+
