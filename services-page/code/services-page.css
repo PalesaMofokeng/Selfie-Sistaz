@@ -141,7 +141,7 @@ body{
 
 .title h1::after{
     content:"";
-    width: 230px;
+    width: 250px;
     height: 4px;
     background-color: black;
     display: block;

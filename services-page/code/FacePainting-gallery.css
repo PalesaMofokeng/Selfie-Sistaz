@@ -90,10 +90,64 @@ nav img{
         display: block;
         margin-top: 10%;
     }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        display: flex;
+    }
+}
+
+.card:hover{
+    background-color: #f5dbe861;
+    transition: 0.4s ease;
 }
 
 @media(max-width: 400px){
     .sidebar{
         width: 100%;
     }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 60%;
+        display: flex;
+    }
+}
+
+body{
+    width: 100%;
+    background-color: #FFC0CB;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.heading{
+    text-decoration-line: underline;
+}
+.heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px #222;
+}
+
+.heading h3 span{
+    font-weight: 100; 
 }
