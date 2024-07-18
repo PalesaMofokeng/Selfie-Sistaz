@@ -39,10 +39,14 @@ nav ul li a{
     border-radius: 30px;
 }
 
-a.active,a:hover{
+a.active{
     background: white;
     color: #fd0983;
     transition: .5s;
+}
+
+a:hover{
+    color: white;
 }
 
 nav img{
@@ -144,10 +148,6 @@ nav img{
     transition-property: background;
 }
 
-.content .info-btn:hover{
-    background: white;
-}
-
 .media-icons{
     display: flex;
     justify-content:flex-start;
@@ -169,6 +169,7 @@ nav img{
 
 .media-icons a:hover{
     transform: scale(1.5);
+    color: white;
 }
 
 body{

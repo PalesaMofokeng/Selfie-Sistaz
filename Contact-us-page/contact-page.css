@@ -39,11 +39,14 @@ nav ul li a {
   border-radius: 30px;
 }
 
-a.active,
-a:hover {
-  background: white;
-  color: #fd0983;
-  transition: 0.5s;
+a.active{
+    background: white;
+    color: #fd0983;
+    transition: .5s;
+}
+
+a:hover{
+    color: white;
 }
 
 nav img {
@@ -110,6 +113,7 @@ h2 {
   padding-top: 50px;
   font-size: 42px;
   font-weight: 100px;
+  margin-bottom: 15px;
 }
 
 .contact {
@@ -117,16 +121,17 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
+/*
 .contact h2 {
   font-size: 40px;
   color: black;
   text-align: center;
   margin-bottom: 19px;
-}
+  margin-top: -250px;
+} */
 
 .contact form {
-  width: 600px;
+  width: 700px;
   text-align: center;
 }
 
@@ -196,4 +201,53 @@ form .textarea-field .item {
 
 form .textarea-field .error-text {
   margin-top: -10px;
+}
+/*
+.box{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+} 
+
+.box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  margin-left: 670px;
+}
+
+.icon {
+  min-width: 50px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+*/
+.Contact details {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  min-width: 50px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: center;
 }

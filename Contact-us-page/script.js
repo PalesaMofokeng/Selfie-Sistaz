@@ -1,20 +1,24 @@
 const form = document.querySelector("form");
 const FullName = document.getElementById("name");
 const email = document.getElementById("email");
-const phone = document.getElementById("phone");
+const phone = document.getElementById("number");
 const subject = document.getElementById("subject");
 const message = document.getElementById("message");
 
 function sendEmail() {
-  const bodyMessage =
-    "Full Name: ${fullName.value}<br> Email: $(email.value)<br> Phone Number: ${phone.value}<br> Message: $(mess.value)";
+  console.log(FullName.value);
+  console.log(email.value);
+  console.log(number.value);
+  console.log(message.value);
+  const bodyMessage = `Full Name: ${FullName.value}<br> Email: ${email.value}<br> Phone Number: ${number.value}<br> Message: ${message.value}`;
+
   Email.send({
     Host: "smtp.elasticemail.com",
     Username: "sisterZselfie@gmail.com",
     Password: "80D469841FBE583D9D679914215F553A7E1A",
     To: "sisterZselfie@gmail.com",
     From: "sisterZselfie@gmail.com",
-    Subject: subject.value,
+    Subject: subject,
     Body: bodyMessage,
   }).then((message) => {
     if (message == "OK") {
@@ -86,5 +90,8 @@ form.addEventListener("submit", (e) => {
     !message.classList.contains("error")
   ) {
     sendEmail();
+
+    form.reset();
+    return false;
   }
 });
