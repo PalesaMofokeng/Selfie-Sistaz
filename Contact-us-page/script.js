@@ -18,7 +18,7 @@ function sendEmail() {
     Password: "80D469841FBE583D9D679914215F553A7E1A",
     To: "sisterZselfie@gmail.com",
     From: "sisterZselfie@gmail.com",
-    Subject: subject,
+    Subject: subject.value,
     Body: bodyMessage,
   }).then((message) => {
     if (message == "OK") {
