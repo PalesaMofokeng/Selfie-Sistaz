@@ -180,6 +180,7 @@ form button {
   font-weight: 600;
   cursor: pointer;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 form button:hover {
@@ -250,4 +251,23 @@ form .textarea-field .error-text {
   align-items: center;
   padding: 10px 0;
   justify-content: center;
+}
+
+.footer-site {
+    background: #000;
+    color: #ff69b4;
+}
+
+.invert {
+    border: none;
+    color: rgba(255, 255, 255, .85);
+}
+
+.footer-site {
+    clear: both;
+    background-color: #ff69b4;
+}
+
+.content {
+    padding: 20px;
 }

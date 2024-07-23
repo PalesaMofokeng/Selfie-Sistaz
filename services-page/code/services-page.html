@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial scale=1">
-        <title>Selfie sisterZ facepainting and hair salon</title>
-        <link rel="stylesheet" href="./services-page.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    </head>
 
-    <body>
-        <nav>
-            <img src="../icon.svg" alt="Selfie sistaz logo">
-            <link rel="icon" href="./selfie-sistaz.png">
-             <ul class="sidebar">
-                 <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                 <li><a href="../../Home-page/home-page.html">Home</a></li>
-                 <li><a href="../../About-us-page/about-us-page.html">About</a></li>
-                 <li><a class="active" href="./services-page.html">Services</a></li>
-                 <li><a href="../../Contact-us-page/contact-page.html">Contact</a></li>
-             </ul>
-             <ul>
-                 <li class="hideOnMobile"><a href="../../Home-page/home-page.html">Home</a></li>
-                 <li class="hideOnMobile"><a href="../../About-us-page/about-us-page.html">About</a></li>
-                 <li class="hideOnMobile"><a class="active" href="./services-page.html">Services</a></li>
-                 <li class="hideOnMobile"><a href="../../Contact-us-page/contact-page.html">Contact</a></li>
-                 <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-             </ul>
-        </nav>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <title>Selfie sisterZ facepainting and hair salon</title>
+    <link rel="stylesheet" href="./services-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
 
-        <script>
-            function showSidebar(){
-             const sidebar = document.querySelector('.sidebar')
-             sidebar.style.display = 'flex'
-            }
-            function hideSidebar(){
-             const sidebar = document.querySelector('.sidebar')
-             sidebar.style.display = 'none'
-            }
-        </script>
+<body>
+    <nav>
+        <img src="../icon.svg" alt="Selfie sistaz logo">
+        <link rel="icon" href="./selfie-sistaz.png">
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px"
+                        viewBox="0 -960 960 960" width="30px" fill="#FFFFFF">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="../../Home-page/home-page.html">Home</a></li>
+            <li><a href="../../About-us-page/about-us-page.html">About</a></li>
+            <li><a class="active" href="./services-page.html">Services</a></li>
+            <li><a href="../../Contact-us-page/contact-page.html">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="../../Home-page/home-page.html">Home</a></li>
+            <li class="hideOnMobile"><a href="../../About-us-page/about-us-page.html">About</a></li>
+            <li class="hideOnMobile"><a class="active" href="./services-page.html">Services</a></li>
+            <li class="hideOnMobile"><a href="../../Contact-us-page/contact-page.html">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
 
     <div class="title">
         <h1>Services</h1>
@@ -48,18 +56,36 @@
             <div class="icon">
                 <i class="fa fa-scissors"></i>
             </div>
-    <h2>Stylists</h2>
-        <p>Our team of experienced and skilled stylists is dedicated to bringing out the best in you. Whether you're looking for a trendy hairstyle, or a unique hairstyle, our stylists are here to turn your vision into reality.</p>
+            <h2>Stylists</h2>
+            <p>Our team of experienced and skilled stylists is dedicated to bringing out the best in you. Whether you're
+                looking for a trendy hairstyle, or a unique hairstyle, our stylists are here to turn your vision into
+                reality.</p>
             <a href="./Hair-gallery.html" class="button">View our work</a>
         </div>
-    <div class="card">
-        <div class="icon">
-            <i class="fas fa-paintbrush"></i>
-        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-paintbrush"></i>
+            </div>
             <h2>Face Painting</h2>
-                <p>Level up with our unique face painting services. Whether you're planning a special event or a celebration or just want to add a touch of whimsy to your day, we can transform your face into a canvas of imagination.</p>
-        <a href="./FacePainting-gallery.html" class="button">View our work</a>
+            <p>Level up with our unique face painting services. Whether you're planning a special event or a celebration
+                or just want to add a touch of whimsy to your day, we can transform your face into a canvas of
+                imagination.</p>
+            <a href="./FacePainting-gallery.html" class="button">View our work</a>
+        </div>
     </div>
-    </div>
-    </body>  
-</html> 
+
+    <section id="footer" class="footer-site invert">
+        <div class="container content clearfix">
+            <div class="grid copyright">
+                <div class="column span-6">
+                    <p class="site-text">Copyright © selfie-sisterz. <a
+                            href="../footer/Selfie Sisterz Copyright Policy.html">Copyright
+                            Policy</a> | <a href="../footer/Terms of use.html">Terms of Use</a></p>
+                </div>
+                <div class="column span-6 clearfix t-right">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

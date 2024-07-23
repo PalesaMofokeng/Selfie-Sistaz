@@ -13,12 +13,6 @@ nav{
     width: 100%;
 } 
 
-nav{
-    background: #FF69B4;
-    height: 70px;
-    width: 100%;
-} 
-
 nav ul{
     float: right;
     margin-right: 20px;
@@ -103,12 +97,13 @@ nav img{
 }
 
 /*home page content*/
-.content{
+.contenty{
     max-width: 650px;
     margin: 60px 20px;
+    flex: 1;
 }
 
-.content .info h2{
+.contenty .info h2{
     color: white;
     font-size: 60px;
     text-transform: uppercase;
@@ -120,7 +115,7 @@ nav img{
     -webkit-text-stroke-width: 3px;
 }
 
-.content .info h2 span{
+.contenty .info h2 span{
     color: #FF69B4;
     font-size: 60px;
     font-weight: 700;
@@ -128,14 +123,14 @@ nav img{
     line-height: 80px;
 }
 
-.content .info p{
+.contenty .info p{
     color: #fd0983;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 40px;
 }
 
-.content .info-btn{
+.contenty .info-btn{
     color: black;
     background: #FF69B4;
     text-decoration: none;
@@ -161,6 +156,7 @@ nav img{
     font-size: 30px;
     transition: 0.3s;
     transition-property: transform;
+    margin-bottom: 40px;
 }
 
 .media-icons a:not(:last-child){
@@ -172,8 +168,32 @@ nav img{
     color: white;
 }
 
+html, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body{
+    min-height: 100vh;
     background-image: url(./NewbgRecovered2.png);
     background-size: cover;
-    height: calc(100vh - 60px)
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-site {
+    background: #FF69B4;
+    color: #ff69b4;
+    width: 100%;
+}
+
+.invert {
+    border: none;
+    color: rgba(255, 255, 255, .85);
+}
+
+.content {
+    padding: 20px;
+    flex: 1;
 }

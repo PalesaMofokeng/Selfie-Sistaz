@@ -1,177 +1,151 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial scale=1" />
-    <title>Selfie sisterZ facepainting and hair salon</title>
-    <link rel="stylesheet" href="./contact-page.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-  </head>
 
-  <nav>
-    <img src="./icon.svg" alt="Selfie sisterZ logo" />
-    <link rel="icon" href="./selfie-sistaz.png" />
-    <ul class="sidebar">
-      <li onclick="hideSidebar()">
-        <a href="#"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="30px"
-            viewBox="0 -960 960 960"
-            width="30px"
-            fill="#FFFFFF"
-          >
-            <path
-              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
-            />
-          </svg>
-        </a>
-      </li>
-      <li><a href="../Home-page/home-page.html">Home</a></li>
-      <li><a href="../About-us-page/about-us-page.html">About</a></li>
-      <li><a href="../services-page/code/services-page.html">Services</a></li>
-      <li><a class="active" href="./contact-page.html">Contact</a></li>
-    </ul>
-    <ul>
-      <li class="hideOnMobile">
-        <a href="../Home-page/home-page.html">Home</a>
-      </li>
-      <li class="hideOnMobile">
-        <a href="../About-us-page/about-us-page.html">About</a>
-      </li>
-      <li class="hideOnMobile">
-        <a href="../services-page/code/services-page.html">Services</a>
-      </li>
-      <li class="hideOnMobile">
-        <a class="active" href="./Contact-us-page/contact-page.html">Contact</a>
-      </li>
-      <li class="menu-button" onclick="showSidebar()">
-        <a href="#">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="30px"
-            viewBox="0 -960 960 960"
-            width="30px"
-            fill="#FFFFFF"
-          >
-            <path
-              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
-            />
-          </svg>
-        </a>
-      </li>
-    </ul>
-  </nav>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial scale=1" />
+  <title>Selfie sisterZ facepainting and hair salon</title>
+  <link rel="stylesheet" href="./contact-page.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
 
-  <script>
-    function showSidebar() {
-      const sidebar = document.querySelector(".sidebar");
-      sidebar.style.display = "flex";
-    }
-    function hideSidebar() {
-      const sidebar = document.querySelector(".sidebar");
-      sidebar.style.display = "none";
-    }
-  </script>
+<nav>
+  <img src="./icon.svg" alt="Selfie sisterZ logo" />
+  <link rel="icon" href="./selfie-sistaz.png" />
+  <ul class="sidebar">
+    <li onclick="hideSidebar()">
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
+          fill="#FFFFFF">
+          <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+        </svg>
+      </a>
+    </li>
+    <li><a href="../Home-page/home-page.html">Home</a></li>
+    <li><a href="../About-us-page/about-us-page.html">About</a></li>
+    <li><a href="../services-page/code/services-page.html">Services</a></li>
+    <li><a class="active" href="./contact-page.html">Contact</a></li>
+  </ul>
+  <ul>
+    <li class="hideOnMobile">
+      <a href="../Home-page/home-page.html">Home</a>
+    </li>
+    <li class="hideOnMobile">
+      <a href="../About-us-page/about-us-page.html">About</a>
+    </li>
+    <li class="hideOnMobile">
+      <a href="../services-page/code/services-page.html">Services</a>
+    </li>
+    <li class="hideOnMobile">
+      <a class="active" href="./Contact-us-page/contact-page.html">Contact</a>
+    </li>
+    <li class="menu-button" onclick="showSidebar()">
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF">
+          <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</nav>
 
-  <body>
-    <h2>Contact Us!</h2>
-    <div class="Contact details">
-      <div class="box">
-        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-        <div class="text">
-          <h3>Address</h3>
-          <p>Katlehong, JHB <br />Note: We also do house calls</p>
-        </div>
-      </div>
+<script>
+  function showSidebar() {
+    const sidebar = document.querySelector(".sidebar");
+    sidebar.style.display = "flex";
+  }
+  function hideSidebar() {
+    const sidebar = document.querySelector(".sidebar");
+    sidebar.style.display = "none";
+  }
+</script>
 
-      <div class="box">
-        <div class="icon"><i class="fab fa-whatsapp"></i></div>
-        <div class="text">
-          <h3>WhatsApp</h3>
-          <p>065-961-1778</p>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="icon"><i class="fab fa-instagram"></i></div>
-        <div class="text">
-          <h3>Instagram</h3>
-          <p>our username here...</p>
-        </div>
+<body>
+  <h2>Contact Us!</h2>
+  <div class="Contact details">
+    <div class="box">
+      <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+      <div class="text">
+        <h3>Address</h3>
+        <p>Katlehong, JHB <br />Note: We also do house calls</p>
       </div>
     </div>
 
-    <section class="contact">
-      <form action="#">
-        <div class="input-box">
-          <div class="input-field field">
-            <input
-              type="text"
-              placeholder="Full Name"
-              id="name"
-              class="item"
-              autocomplete="off"
-            />
-            <div class="error-text">Full Name can't be blank</div>
-          </div>
-          <div class="input-field field">
-            <input
-              type="text"
-              placeholder="Email Address"
-              id="email"
-              class="item"
-              autocomplete="off"
-            />
-            <div class="error-text">Email Address can't be blank</div>
-          </div>
-        </div>
+    <div class="box">
+      <div class="icon"><i class="fab fa-whatsapp"></i></div>
+      <div class="text">
+        <h3>WhatsApp</h3>
+        <p>065-961-1778</p>
+      </div>
+    </div>
 
-        <div class="input-box">
-          <div class="input-field field">
-            <input
-              type="text"
-              placeholder="Phone Number"
-              id="number"
-              class="item"
-              autocomplete="off"
-            />
-            <div class="error-text">Phone Number can't be blank</div>
-          </div>
-          <div class="input-field field">
-            <input
-              type="text"
-              placeholder="Subject"
-              id="subject"
-              class="item"
-              autocomplete="off"
-            />
-            <div class="error-text">Subject can't be blank</div>
-          </div>
-        </div>
+    <div class="box">
+      <div class="icon"><i class="fab fa-instagram"></i></div>
+      <div class="text">
+        <h3>Instagram</h3>
+        <p>our username here...</p>
+      </div>
+    </div>
 
-        <div class="textarea-field field">
-          <textarea
-            name=""
-            id="message"
-            cols="30"
-            rows="18"
-            placeholder="Your Message"
-            class="item"
-            autocomplete="off"
-          ></textarea>
-          <div class="error-text">Message can't be blank</div>
-        </div>
+    <div class="box">
+      <div class="icon"><i class="fab fa-facebook"></i></div>
+      <div class="text">
+        <h3>Facebook</h3>
+        <p>our username here...</p>
+      </div>
+    </div>
+  </div>
 
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
-  </body>
+  <section class="contact">
+    <form action="#">
+      <div class="input-box">
+        <div class="input-field field">
+          <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off" />
+          <div class="error-text">Full Name can't be blank</div>
+        </div>
+        <div class="input-field field">
+          <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off" />
+          <div class="error-text">Email Address can't be blank</div>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <div class="input-field field">
+          <input type="text" placeholder="Phone Number" id="number" class="item" autocomplete="off" />
+          <div class="error-text">Phone Number can't be blank</div>
+        </div>
+        <div class="input-field field">
+          <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off" />
+          <div class="error-text">Subject can't be blank</div>
+        </div>
+      </div>
+
+      <div class="textarea-field field">
+        <textarea name="" id="message" cols="30" rows="18" placeholder="Your Message" class="item"
+          autocomplete="off"></textarea>
+        <div class="error-text">Message can't be blank</div>
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="./script.js"></script>
+
+  <section id="footer" class="footer-site invert">
+    <div class="container content clearfix">
+      <div class="grid copyright">
+        <div class="column span-6">
+          <p class="site-text">Copyright © selfie-sisterz. <a
+              href="../footer/Selfie Sisterz Copyright Policy.html">Copyright
+              Policy</a> | <a href="../footer/Terms of use.html">Terms of Use</a></p>
+        </div>
+        <div class="column span-6 clearfix t-right">
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>
