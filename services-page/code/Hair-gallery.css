@@ -39,10 +39,24 @@ nav ul li a {
   border-radius: 30px;
 }
 
+.dream {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+/* .image-style {
+    flex: 1 1 auto;
+    max-width: calc(33.333% - 10px);
+    box-sizing: border-box;
+} */ 
+
 .dream img{
   width: 19%;
   height: 20%;
   margin: 3px;
+  /* max-width: calc(30% - 10px); */
 }
 
 a.active {
@@ -138,7 +152,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 30px;
+  margin: 30px;
 }
 
 .container .heading {
@@ -146,18 +160,26 @@ body {
   padding-bottom: 50px;
 }
 
-.heading {
+/* .heading {
   text-decoration-line: underline;
-}
-.heading h3 {
+  align-self: center;
+} */
+
+h3 {
   font-size: 3em;
+  padding-top: 50px;
   font-weight: bolder;
   padding-bottom: 10px;
   border-bottom: 3px #222;
+  text-decoration-line: underline;
+  text-align: center;
 }
 
-.heading h3 span {
+h3 span {
+  padding-top: 50px;
   font-weight: 100;
+  text-decoration-line: underline;
+  align-self: center;
 }
 
 /*

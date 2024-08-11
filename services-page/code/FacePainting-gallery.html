@@ -51,17 +51,28 @@
             for (let x = 1; x < 34; x++) {
                 const img = document.createElement('img');
                 img.src = "../face-painting-pics/" + x + ".png";
+                img.style.margin = "6px";
                 document.querySelector('.dream').appendChild(img);
+
+                img.addEventListener('click', function () {
+                    if (img.requestFullscreen) {
+                        img.requestFullscreen();
+                    } else if (img.mozRequestFullScreen) { // For Firefox
+                        img.mozRequestFullScreen();
+                    } else if (img.webkitRequestFullscreen) { // For Chrome
+                        img.webkitRequestFullscreen();
+                    } else if (img.msRequestFullscreen) { // For Edge
+                        img.msRequestFullscreen();
+                    }
+                });
             }
         });
 
     </script>
 
-    <div class="container">
-        <div class="heading">
-            <h3>Photo <span>Gallery</span></h3>
-        </div>
+    <h3>Photo <span>Gallery</span></h3>
 
+    <div class="container">
         <div class="box">
             <div class="dream"></div>
         </div>

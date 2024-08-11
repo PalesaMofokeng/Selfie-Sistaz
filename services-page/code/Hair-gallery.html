@@ -60,19 +60,30 @@
         }
 
         document.addEventListener('DOMContentLoaded', function () {
-            for (let x = 1; x < 48; x++) {
+            for (let x = 1; x < 50; x++) {
                 const img = document.createElement('img');
                 img.src = "../hair-pics/" + x + ".png";
+                // img.style.margin = "6px";
                 document.querySelector('.dream').appendChild(img);
+
+
+                img.addEventListener('click', function () {
+                    if (img.requestFullscreen) {
+                        img.requestFullscreen();
+                    } else if (img.mozRequestFullScreen) { // For Firefox
+                        img.mozRequestFullScreen();
+                    } else if (img.webkitRequestFullscreen) { // For Chrome
+                        img.webkitRequestFullscreen();
+                    } else if (img.msRequestFullscreen) { // For Edge
+                        img.msRequestFullscreen();
+                    }
+                });
             }
         });
     </script>
 
+    <h3>Photo <span>Gallery</span></h3>
     <div class="container">
-        <div class="heading">
-            <h3>Photo <span>Gallery</span></h3>
-        </div>
-
         <div class="box">
             <div class="dream"></div>
         </div>

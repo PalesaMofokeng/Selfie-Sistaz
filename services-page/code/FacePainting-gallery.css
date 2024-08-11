@@ -39,10 +39,18 @@ nav ul li a {
   border-radius: 30px;
 }
 
+.dream{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
 .dream img{
   width: 19%;
   height: 20%;
   margin: 3px;
+  /* max-width: calc(30% - 10px); */
 }
 
 a.active {
@@ -149,15 +157,19 @@ body {
 .heading {
   text-decoration-line: underline;
 }
-.heading h3 {
+h3 {
   font-size: 3em;
+  padding-top: 50px;
   font-weight: bolder;
   padding-bottom: 10px;
   border-bottom: 3px #222;
+  text-align: center;
 }
 
-.heading h3 span {
+h3 span {
+  padding-top: 50px;
   font-weight: 100;
+  text-align: center;
 }
 
 .footer-site {
