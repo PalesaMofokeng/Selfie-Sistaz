@@ -122,6 +122,9 @@ nav img {
     width: 80%;
     display: flex;
   }
+  .dream img {
+    max-width: 100px; /* Make images smaller for smaller screens */
+  }
 }
 
 .card:hover {
