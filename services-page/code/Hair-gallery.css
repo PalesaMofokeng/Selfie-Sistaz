@@ -122,10 +122,6 @@ nav img {
     width: 80%;
     display: flex;
   }
-  .dream {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
   .dream img {
     max-width: 100px; /* Make images smaller for smaller screens */
   }
