@@ -125,7 +125,12 @@ nav img {
   .dream img {
     max-width: 100px; /* Make images smaller for smaller screens */
   }
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
+
 
 .card:hover {
   background-color: #f5dbe861;
